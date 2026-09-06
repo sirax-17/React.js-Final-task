@@ -7,7 +7,7 @@ import {
   useSelector
 } from 'react-redux'
 import useFetch from '../Hooks/usefetch'
-import { deleteBooking } from '../redux/bookingslice'
+import { deleteBooking } from '../redux/bookingSlice'
 function Profile() {
   const dispatch = useDispatch()
   const fileInputRef = useRef()
